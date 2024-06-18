@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('https://i.pinimg.com/736x/a6/68/a0/a668a0e4c3d82bf4adcbb1ed76b7ee55.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: beige;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-content h1 .logo {
+            font-family: 'Pacifico', cursive;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-content h1 .logo img {
+            max-height: 50px;
+            margin-right: 10px;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .about-section, .skills-section, .projects-section, .resume-section, .contact-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .skills-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-section ul li {
+            display: inline-block;
+            background-color: #f7f7f7;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .projects-section .project {
+            margin-bottom: 40px;
+        }
+
+        .projects-section .project img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        .resume-section a {
+            text-decoration: none;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="logo"><img src="C:\Users\hp\Desktop\Beige Logo.png" alt="Logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="about-section">
+        <img src="C:\Users\hp\Desktop\pic.jpg" alt="Mosmi">
+        <h2>Hi all I'm Mosmi 👋</h2>
+        <p>A passionate web development Developer having an experience of building Websites with JavaScript / Nodejs and some other frameworks.</p>
+    </section>
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>HTML & CSS</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>webpage development</h3>
+            <p>The Project is about creating a website for a domain of own. Adding registration form. Taking inputs through Node.js, etc.</p>
+            <img src="C:\Users\hp\Videos\Captures\InvestWise - Investment Portfolio - Google Chrome 27-05-2024 11_34_13.png" alt="Project Image">
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="resume" class="resume-section">
+        <h2>Resume</h2>
+        <a href="file:///C:/Users/hp/Downloads/Resume.pdf" download>Download My Resume</a>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Email: mosmis277@gmail.com</p>
+        <p>Phone: +9019370289</p>
+        <!-- Add more contact information as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Mosmi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
